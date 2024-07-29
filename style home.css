@@ -596,7 +596,7 @@ main .recent-orders table{
     .right-section .nav{
         position: fixed;
         top: 0;
-        left: 0;
+        left: 300px;
         align-items: center;
         background-color: var(--color-white);
         padding: 0 var(--padding-1);
