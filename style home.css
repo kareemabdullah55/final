@@ -30,12 +30,6 @@
     --color-light: rgba(0, 0, 0, 0.4);
     --box-shadow: 0 2rem 3rem var(--color-light);
 }
-.user-profile .logo1 h1{
-    color: red;
-}
-.user-profile .logo h1{
-    color: red;
-}
 
 *{
     margin: 0;
@@ -477,12 +471,45 @@ main .recent-orders table{
     align-items: center;
     gap: 0.6rem;
 }
+main .recent-orders{
+    margin-top: 1.3rem;
+}
+
+main .recent-orders h2{
+    margin-bottom: 0.8rem;
+}
+
+main .recent-orders table{
+    background-color: var(--color-white);
+    width: 100%;
+    padding: var(--card-padding);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--card-border-radius);
+    transition: all 0.3s ease;
+}
+
+main .recent-orders table:hover{
+    box-shadow: none;
+}
+
+main table tbody td{
+    height: 2.8rem;
+    border-bottom: 1px solid var(--color-light);
+    color: var(--color-dark-variant);
+}
+
+main table tbody tr:last-child td{
+    border: none;
+}
 .user-profile .logo1 h1{
     color: red;
 }
 .user-profile .logo h1{
     color: red;
 }
+
+
 
 @media screen and (max-width: 1200px) {
     .container{
@@ -607,7 +634,7 @@ main .recent-orders table{
     .right-section .nav{
         position: fixed;
         top: 0;
-        left: 300px;
+        left: 0;
         align-items: center;
         background-color: var(--color-white);
         padding: 0 var(--padding-1);
