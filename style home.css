@@ -471,7 +471,12 @@ main .recent-orders table{
     align-items: center;
     gap: 0.6rem;
 }
-
+.user-profile .logo1 h1{
+    color: red;
+}
+.user-profile .logo h1{
+    color: red;
+}
 
 @media screen and (max-width: 1200px) {
     .container{
