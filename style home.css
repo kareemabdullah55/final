@@ -30,6 +30,12 @@
     --color-light: rgba(0, 0, 0, 0.4);
     --box-shadow: 0 2rem 3rem var(--color-light);
 }
+.user-profile .logo1 h1{
+    color: red;
+}
+.user-profile .logo h1{
+    color: red;
+}
 
 *{
     margin: 0;
