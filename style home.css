@@ -175,10 +175,11 @@ aside .sidebar a{
     transition: all 0.3s ease;
 }
 .user-profile .logo1 h1{
-    color: red;    
+    color: red;
+    
 }
 .user-profile .logo h1{
-    color:red;
+    color: red;
 }
 aside .sidebar a span{
     font-size: 1.6rem;
