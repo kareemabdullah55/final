@@ -491,6 +491,13 @@ main .recent-orders table{
 }
 
 @media screen and (max-width: 768px){
+        li{
+        font-size: 15px;
+    }
+     h1{
+        font-size: 15px;
+    }
+    
     main .new-users .user-list {
         width: 100%;
 }
